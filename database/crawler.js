@@ -1,3 +1,9 @@
+/**
+ * @author shuizhubocai@gmail.com
+ * @date 2019/4/26
+ * @Description: 数据库爬虫
+*/
+
 let request = require('request'), //http库
     cheerio = require('cheerio'),//类Jquery解析DOM
     util = require('util'),//工具库

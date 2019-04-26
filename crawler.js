@@ -1,3 +1,9 @@
+/**
+ * @author shuizhubocai@gmail.com
+ * @date 2019/4/26
+ * @Description: 本地爬虫
+*/
+
 let request = require('request'), //http库
     cheerio = require('cheerio'),//类Jquery解析DOM
     util = require('util'),//工具库
@@ -5,8 +11,6 @@ let request = require('request'), //http库
     fs = require('fs'), //处理文件
     path = require('path'), //处理路径
     asyncOther = require('async'); //并发控制
-
-//抓取猫眼电影top100所有页面电影的标题，排名，封面图
 
 //地址管理器
 class Urls {
