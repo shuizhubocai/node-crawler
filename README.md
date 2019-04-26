@@ -1,14 +1,12 @@
 # Node.js爬虫
 使用request+cheerio+mysql+async爬取网站
-* 本地爬虫结果图：
-  ![crawler](https://raw.githubusercontent.com/shuizhubocai/node-crawler/v1.0/assets/11.png)
-
-* 数据库爬虫结果图：
-  ![crawler](https://raw.githubusercontent.com/shuizhubocai/node-crawler/v1.0/assets/12.png)
 
 # 项目有两个爬虫分别是：
  1. 本地爬虫：爬取猫眼电影top100，爬取电影标题，电影排名，电影封面。使用request+cheerio+async，爬虫入口文件是根目录下的/crawler.js。，Node环境下执行爬虫命令是：npm run crawler
+  ![crawler](https://raw.githubusercontent.com/shuizhubocai/node-crawler/v1.0/assets/11.png)
+  
  2. 数据库爬虫：爬取猫眼电影详情页，爬取电影标题，电影类型，电影上市时间，电影简介，电影时长，电影上映的地方。使用request+cheerio+mysql，爬虫入口是/database/crawler.js。Node环境下执行爬虫命令是：npm run crawler_db
+ ![crawler](https://raw.githubusercontent.com/shuizhubocai/node-crawler/v1.0/assets/12.png)
 
 # 爬虫包含的模块：
  1. url管理器
