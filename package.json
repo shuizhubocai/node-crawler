@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crawler.js",
+  "scripts": {
+    "crawler": "node crawler.js",
+    "crawler_db": "node database/crawler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "cheerio": "^1.0.0-rc.3",
+    "mysql": "^2.17.1",
+    "request": "^2.88.0"
+  }
+}
